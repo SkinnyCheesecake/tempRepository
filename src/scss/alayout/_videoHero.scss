@@ -1,0 +1,7 @@
+@use 'bconections/variables' as *;
+@use 'bconections/mixins' as m;
+
+.vsection{
+    height: 86vh;
+    align-items: center;
+}

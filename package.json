@@ -1,0 +1,38 @@
+{
+  "name": "workingwireless",
+  "version": "1.0.0",
+  "description": "I am working without internet conection, but I'm trying to learn SCSS, NPM and Gulp, so here we are",
+  "main": "js.js",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css",
+    "render": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkinnyCheesecake/tempRepository.git"
+  },
+  "keywords": [
+    "SCSS",
+    "Gulp",
+    "NPM",
+    "Chocolatey"
+  ],
+  "author": "Carlos Cortez & Hanna Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkinnyCheesecake/tempRepository/issues"
+  },
+  "homepage": "https://github.com/SkinnyCheesecake/tempRepository#readme",
+  "dependencies": {
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.77.8",
+    "sharp": "^0.33.4"
+  }
+}
